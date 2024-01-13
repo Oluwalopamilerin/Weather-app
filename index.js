@@ -30,10 +30,10 @@ search.addEventListener("click", () => {
         const humidity = document.querySelector(".weather-details .humidity span");
         const wind = document.querySelector(".weather-details .wind span");
 
-        if(cityHide.textContent == city){
+        if(cityHide.textContent == city)
           return;
-        } 
-        else{
+        
+        
           cityHide.textContent = city;
 
           container.style. height = "555px";
@@ -125,7 +125,7 @@ search.addEventListener("click", () => {
               cloneInfoHumidityFirst.remove("");
               cloneInfoWindFirst.remove("");
             }, 2200);
-          }
+          
         
         
         }
